@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import kz.arctan.endterm.data.model.TopPlace
 
+//TODO add annotations
 interface TopPlaceDao {
     fun insertTopPlace(topPlace: TopPlace)
 

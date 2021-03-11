@@ -3,6 +3,7 @@ package kz.arctan.endterm.data.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+//TODO add annotations
 data class User(
     var id: Int,
     var firstName: String,

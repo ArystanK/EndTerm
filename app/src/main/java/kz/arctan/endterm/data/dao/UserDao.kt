@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import kz.arctan.endterm.data.model.User
 
+//TODO add annotations
 interface UserDao {
     fun insertUser(user: User)
 

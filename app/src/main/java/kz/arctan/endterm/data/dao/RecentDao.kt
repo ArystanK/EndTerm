@@ -4,6 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import kz.arctan.endterm.data.model.Recent
 
+
+//TODO add annotations
 interface RecentDao {
     fun insertRecent(recent: Recent)
 
