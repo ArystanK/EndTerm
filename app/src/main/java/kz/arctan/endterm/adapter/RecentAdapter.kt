@@ -1,4 +1,4 @@
-package kz.arctan.endterm
+package kz.arctan.endterm.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kz.arctan.endterm.model.Recent
+import kz.arctan.endterm.R
+import kz.arctan.endterm.data.model.Recent
 
 class RecentAdapter(private val context: Context, private val recentDataList: List<Recent>) :
     RecyclerView.Adapter<RecentAdapter.RecentViewHolder>() {

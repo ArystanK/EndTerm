@@ -3,10 +3,21 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Create account!</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="place_image_view">place image view</string>
+    <string name="find_your">Find Your</string>
+    <string name="next_destination">Next Destination</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="search_destinations">Search Destinations</string>
+    <string name="recent">Recent</string>
+    <string name="see_all">See All</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_top_places">Top places</string>
+    <string name="tab_top_hotels">Top hotels</string>
+    <string name="tab_recent_place">Recent place</string>
 </resources>
