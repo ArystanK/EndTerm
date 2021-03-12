@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 import kz.arctan.endterm.R
-import kz.arctan.endterm.adapter.RecentAdapter
+import kz.arctan.endterm.ui.adapter.RecentAdapter
 import kz.arctan.endterm.data.model.Recent
 
 class MainActivity : AppCompatActivity() {

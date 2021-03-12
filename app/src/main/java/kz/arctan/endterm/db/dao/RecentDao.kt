@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import kz.arctan.endterm.data.model.Recent
 
-
 @Dao
 interface RecentDao {
     @Insert

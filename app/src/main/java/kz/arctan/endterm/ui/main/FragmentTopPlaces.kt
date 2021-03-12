@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kz.arctan.endterm.R
-import kz.arctan.endterm.adapter.TopPlaceAdapter
+import kz.arctan.endterm.ui.adapter.TopPlaceAdapter
 import kz.arctan.endterm.data.model.TopPlace
 
 class FragmentTopPlaces : Fragment() {
