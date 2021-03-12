@@ -1,7 +1,8 @@
-package kz.arctan.endterm
+package kz.arctan.endterm.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kz.arctan.endterm.R
 
 class RegistrationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

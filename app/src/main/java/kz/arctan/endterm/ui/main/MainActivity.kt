@@ -1,4 +1,4 @@
-package kz.arctan.endterm
+package kz.arctan.endterm.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import kz.arctan.endterm.R
 import kz.arctan.endterm.adapter.RecentAdapter
 import kz.arctan.endterm.data.model.Recent
-import kz.arctan.endterm.ui.main.SectionsPagerAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var recentRecyclerView: RecyclerView

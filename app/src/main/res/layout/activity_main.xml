@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F0F7FA"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/header_constraint_layout"
         android:layout_width="0dp"
-        android:layout_height="220dp"
+        android:layout_height="180dp"
         android:background="@drawable/home_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -56,7 +56,7 @@
         <EditText
             android:id="@+id/search_destination_edit_text"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/search_bg"
             android:drawableStart="@drawable/ic_search_black_24dp"
