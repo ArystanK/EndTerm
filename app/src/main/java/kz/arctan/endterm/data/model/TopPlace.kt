@@ -1,8 +1,11 @@
 package kz.arctan.endterm.data.model
 
-//TODO add annotations
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "top_place")
 data class TopPlace(
-    val id: Int,
+    @PrimaryKey val id: Int,
     val imageUrl: Int,
     val placeName: String,
     val countryName: String,
