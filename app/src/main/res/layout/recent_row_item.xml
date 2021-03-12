@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="180dp"
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
@@ -25,7 +26,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/place_image_view" />
+        app:layout_constraintTop_toBottomOf="@+id/place_image_view"
+        tools:text="Place name" />
 
     <TextView
         android:id="@+id/country_name_text_view"
@@ -33,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         app:layout_constraintStart_toStartOf="@+id/place_name_text_view"
-        app:layout_constraintTop_toBottomOf="@+id/place_name_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/place_name_text_view"
+        tools:text="Country name" />
 
     <TextView
         android:id="@+id/price_text_view"
@@ -43,6 +46,7 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/country_name_text_view"
-        app:layout_constraintTop_toBottomOf="@+id/country_name_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/country_name_text_view"
+        tools:text="Price" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
